@@ -50,8 +50,7 @@ def addBooks(booksfile):
     es leyendo todo lo que encuentre en el archivo indicado por filename.
     Cada linea del archivo quedará en una posicion de la lista.
     """
-    books = lt.newList(datastructure='SINGLE_LINKED',
-                       filename=booksfile)
+    books = lt.newList(datastructure='SINGLE_LINKED',filename=booksfile)
     return books
 
 
